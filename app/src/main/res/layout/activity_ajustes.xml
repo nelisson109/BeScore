@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/orange_estampado"
+    tools:context=".controlers.Ajustes">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTituloNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/tvTituloNombre"
+            android:textAlignment="center"
+            android:textColor="@color/md_white_1000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvNombreActual"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:text="@string/tvNombreActual"
+                    android:textColor="@color/md_white_1000"
+                    android:textStyle="bold"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tvNombreNuevo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:textColor="@color/md_white_1000"
+                    android:text="@string/tvNuevoNombre"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/etNombreActual"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/md_white_1000"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/etNombreNuevo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/md_white_1000"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_TituloApellidos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/tvTituloApellidos"
+            android:textColor="@color/md_white_1000"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvApellidosActual"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:text="@string/tvApellidosActuales"
+                    android:textColor="@color/md_white_1000"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/tvApellidosNuevos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:text="@string/tvApellidosNuevos"
+                    android:textColor="@color/md_white_1000"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/etApellidosActuales"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/md_white_1000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/etApellidosNuevos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/md_white_1000"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_TituloPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/tvTituloPassword"
+            android:textColor="@color/md_white_1000"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvPasswordNueva"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:text="@string/tvPasswordNuevo"
+                    android:textColor="@color/md_white_1000"
+                    android:textStyle="bold"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tvPasswordRepite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:text="@string/tvRepeatPassword"
+                    android:textColor="@color/md_white_1000"
+                    android:textStyle="bold"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/etPasswordNuevo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/md_white_1000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/etPasswordRepite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="35dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/md_white_1000"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnGuardarNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="120dp"
+            android:onClick="actualizarNombre"
+            android:background="@drawable/boton_borde_purple"
+            android:textColor="@color/md_amber_400"
+            android:layout_margin="3dp"
+            android:textStyle="bold"
+            android:text="@string/btnGuardarNombre"></Button>
+
+        <Button
+            android:id="@+id/btnGuardarApellidos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="120dp"
+            android:onClick="actualizarApellido"
+            android:background="@drawable/boton_borde_purple"
+            android:textColor="@color/md_amber_400"
+            android:layout_margin="3dp"
+            android:textStyle="bold"
+            android:text="@string/btnGuardarApellidos"></Button>
+
+        <Button
+            android:id="@+id/btnGuardarContraseña"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="120dp"
+            android:onClick="actualizarPassword"
+            android:background="@drawable/boton_borde_purple"
+            android:textColor="@color/md_amber_400"
+            android:layout_margin="3dp"
+            android:textStyle="bold"
+            android:text="@string/btnGuardarContraseña"></Button>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here.
+        <item name="colorPrimary">@color/coloPrimario</item>
+        <item name="colorPrimaryDark">@color/colorSegundario</item>
+        <item name="colorAccent">@color/colorTerciario</item>
+        -->
+        <item name="colorPrimary">@color/verde_fondo_splash</item>
+        <item name="colorPrimaryDark">@color/md_grey_600</item>
+        <item name="colorAccent">@color/md_deep_purple_300</item>
+    </style>
+
+    <style name="BeScoreTema" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/md_blue_400</item>
+        <item name="colorPrimaryDark">@color/md_blue_500</item>
+        <item name="colorAccent">@color/md_lime_400</item>
+    </style>
+
+    <style name="BeScoreTema2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/md_blue_400</item>
+        <item name="colorPrimaryDark">@color/md_amber_400</item>
+        <item name="colorAccent">@color/md_grey_800</item>
+    </style>
+
+
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/orange_estampado"
+    tools:context=".controlers.AcercaDe">
+
+    <TextView
+        android:id="@+id/tvAcercaDe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/md_white_1000"
+        android:text="@string/AcercaDe" />
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="150dp"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/logo_letra_mayor_res" />
+
+
+</LinearLayout>

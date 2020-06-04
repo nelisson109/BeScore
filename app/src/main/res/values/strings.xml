@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">BeScore</string>
+
+    <!-- PANTALLA LOGIN /MainActivity-->
+    <string name="tituloApp">BE-SCORE</string>
+    <string name="usuario">E-mail</string>
+    <string name="password">Password</string>
+    <string name="btnEntrar">Entrar</string>
+    <string name="btnCrearCuenta">Crear Cuenta</string>
+
+    <!-- PANTALLA FORMULARIO /NuevaCuenta-->
+    <string name="tvNombre">Nombre: </string>
+    <string name="tvApellidos">Apellidos: </string>
+    <string name="tvCorreo">E-mail: </string>
+    <string name="tvPassword">Contraseña: </string>
+    <string name="tvRepeatPassword">Repite contraseña: </string>
+    <string name="btnCrear">Crear</string>
+    <string name="tvDescripcion">Descripcion: </string>
+
+    <!-- PANTALLA PERFIL /PERFIL-->
+    <string name="tvEstado">Reto: </string>
+    <string name="etDescripcion">Escribe algo que te describa, ¡Empieza con energía!</string>
+    <string name="etEstado">Escribe un nuevo Reto...</string>
+    <string name="btnGuardar">Guardar</string>
+
+    <!-- PANTALLA COMENTARIOS-->
+    <string name="et_Comentario">Escriba aqui un comentario...</string>
+    <string name="btnRespuestas">Ver respuestas</string>
+
+    <!-- PANTALLA COMENTARIOS-->
+    <string name="btnGuardarComentario">Comentar</string>
+
+    <!-- PANTALLA AJUSTES-->
+    <string name="tvTituloNombre">Cambiar Nombre: </string>
+    <string name="tvTituloApellidos">Cambiar Apellidos: </string>
+    <string name="tvTituloPassword">Cambiar Contraseña: </string>
+    <string name="tvNombreActual">Nombre Actual: </string>
+    <string name="tvNuevoNombre">Nombre Nuevo: </string>
+    <string name="tvApellidosActuales">Apellidos Actuales: </string>
+    <string name="tvApellidosNuevos">Apellidos Nuevos: </string>
+    <string name="tvPasswordNuevo">Contraseña Nueva: </string>
+    <string name="tvPasswordRepite">Repite Contraseña: </string>
+    <string name="btnGuardarNombre">Nombre</string>
+    <string name="btnGuardarApellidos">Apellido</string>
+    <string name="btnGuardarContraseña">Contraseña</string>
+
+    <!-- PANTALLA ACERCA DE-->
+    <string name="AcercaDe">Esta Aplicación ha sido desarrollada íntegramente por Martín Loza Gavadián
+    para el 2º curso de Desarrollo de Aplicaciones Multiplataforma. Se basa en una red social deportiva
+    en la que los usuarios pueden compartir retos deportivos, así como otros retos de actividad física.</string>
+
+
+</resources>

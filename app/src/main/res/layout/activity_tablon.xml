@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/orange_estampado"
+    tools:context=".controlers.Tablon">
+
+
+    <TextView
+        android:id="@+id/tvTituloTablon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RETOS"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:textColor="@color/md_white_1000"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerTablon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

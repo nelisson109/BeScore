@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/orange_estampado"
+    tools:context=".controlers.PantallaMensajes">
+
+    <TextView
+        android:id="@+id/tvNombreCompleto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:background="@drawable/caja_verde"
+        android:textColor="@color/md_white_1000"
+        android:layout_marginTop="10dp"
+        android:layout_margin="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        />
+
+<!--    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_margin="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/md_grey_800"
+        />-->
+
+    <TextView
+        android:id="@+id/tvEstado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@color/md_white_1000"
+        android:textSize="28sp"
+        android:background="@drawable/caja_verde"
+        android:layout_margin="10dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="10dp"
+        android:paddingEnd="10dp"
+        android:textStyle="italic"
+        android:inputType="textMultiLine"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_margin="20dp"
+        android:background="@color/md_white_1000"
+        />
+
+
+    <EditText
+        android:id="@+id/et_Comentar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/caja_purple"
+        android:textColor="@color/md_white_1000"
+        android:textSize="24sp"
+        android:textColorHint="@color/md_white_1000"
+        android:hint="Comenta el Reto aquí..."
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:paddingLeft="25dp"
+        android:paddingRight="10dp" />
+
+    <Button
+        android:id="@+id/btnGuardarComentario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="150dp"
+        android:background="@drawable/boton_borde_purple"
+        android:textColor="@color/md_amber_400"
+        android:onClick="obtenerNombreRespondedor"
+        android:textStyle="bold"
+        android:text="@string/btnGuardarComentario" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_margin="20dp"
+        android:background="@color/md_white_1000"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerMensajes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="20dp"
+        android:layout_marginBottom="10dp"
+        />
+</LinearLayout>

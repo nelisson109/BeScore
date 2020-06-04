@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/caja_verde"
+        android:layout_margin="15dp">
+
+        <LinearLayout
+            android:layout_width="310dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_Contestador"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="remitente......"
+                android:textColor="@color/md_white_1000"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:paddingLeft="10dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_margin="2dp"
+                android:background="@color/md_white_1000"/>
+
+            <TextView
+                android:id="@+id/tvTextoEstado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="texto......"
+                android:textColor="@color/md_white_1000"
+                android:textSize="26sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/md_white_1000"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btnComentar"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:onClick="ventanaComentar"
+                android:layout_gravity="center"
+                android:background="@drawable/cajas_texto_transparente"
+                app:srcCompat="@drawable/baseline_comment_black_18dp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
